@@ -8,7 +8,7 @@ if [ -f ./${FILE_NAME} ]; then
   rm ./${FILE_NAME}
 fi
 
-touch test.txt
+touch ${FILE_NAME}
 
 echo $(date) >> ./${FILE_NAME}
 echo modified >> ./${FILE_NAME}
